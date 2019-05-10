@@ -4,7 +4,7 @@
 
 遇到问题：
   1.a标签仅仅为语义话而写 并没有href的作用时，href属性必填默认值，如果不填导致‘ios safair’下显示异常，当然填写默认值还有很多优点，此处不bb。
-  2.还是ios safari 和一些其他浏览器会自动识别网页中的数字或者手机号，并把它们当作链接添加默认行为，此时head里面添加 “<meta name="format-detection" content="telephone=no" />” 防止自动识别。
+  2.还是ios safari 和一些其他浏览器会自动识别网页中的数字或者手机号，并把它们当作链接添加默认行为，此时head里面添加 “/<meta name="format-detection" content="telephone=no" />/” 防止自动识别。
   
   
   
