@@ -1,0 +1,460 @@
+@media screen and (max-width: 768px) {
+    .mobile_show {
+        display: block;
+    }
+
+    .mobile_hide {
+        display: none;
+    }
+
+    body {
+        min-width: auto;
+        overflow-x: hidden;
+        font-size: 16px;
+        /* padding-top: .6rem */
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1;
+        overflow: hidden;
+        height: 1.1rem;
+    }
+
+    .header .header_inner {
+        width: 100%;
+    }
+
+    .header .header_logo {
+        height: 0.5rem;
+        margin: 0 0;
+        margin-left: 0.3rem;
+        margin-top: 0.36rem
+    }
+
+    .header .header_logo label {
+        display: none;
+    }
+
+    .header .header_btn_con {
+        margin-right: 0;
+    }
+
+    .header .header_btn_con {
+        line-height: 1.1rem;
+        float: right;
+        margin-right: 0.3rem;
+    }
+
+    .header_btn_con .contact_btn {
+        float: left;
+        margin-left: 0;
+    }
+
+    .header_btn_con .header_btn {
+        float: right;
+        margin-left: 0.5rem;
+        font-size: 0.3rem;
+    }
+
+    .header_btn_con .contact_btn img {
+        height: 0.28rem;
+        vertical-align: -0.04rem;
+        margin-right: 0.1rem;
+    }
+
+    .sys_desc {
+        height: 3.5rem;
+        background-size: 100% 100%;
+    }
+
+    .sys_desc_inner {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1.55rem;
+        padding-left: 0.35rem;
+    }
+
+    .sys_desc_inner h1 {
+        font-size: 0.4rem;
+    }
+
+    .sys_desc_inner div {
+        font-size: 0.2rem;
+    }
+
+    .hx-banner {
+        font-size: 0.32rem;
+        height: inherit;
+    }
+
+    .hx-banner>div {
+        width: 100%;
+        height: 0.8rem;
+        margin: 0.3rem auto;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+
+    .hx-banner img {
+        height: 0.8rem;
+        margin-right: 0.3rem;
+    }
+
+    .hx-banner label {
+        line-height: 0.8rem;
+    }
+
+    .sys_dev {
+        width: 100%;
+        padding: 0.1rem 0 0.8rem 0;
+    }
+
+    .hy_wenti {
+        margin-bottom: 0.35rem;
+    }
+
+    .hy_wenti label {
+        width: 0.85rem;
+        height: 0.4rem;
+        line-height: 0.4rem
+    }
+
+    .sys_dev_items {
+        width: 100%;
+        padding: 0 0.6rem;
+    }
+
+    .sys_dev_item {
+        width: 2.8rem;
+        margin: 0 2%;
+        margin-top: 0.5rem;
+    }
+
+    .sys_dev_item_title {
+        font-size: 0.34rem;
+        margin: 0.3rem 0 0.35rem 0;
+    }
+
+    .sys_dev_item_icon {
+        height: 0.7rem;
+        width: 0.7rem;
+    }
+
+    .sys_dev_item label {
+        font-size: 0.26rem;
+    }
+
+    .sys_dev_item .hy_wenti_content>label {
+        font-size: 0.23rem;
+        color: #9da1a6;
+        line-height: 0.4rem;
+    }
+
+    .sys_fun {
+        padding: 0.6rem;
+    }
+
+    .sys_dev_title,
+    .sys_fun_title {
+        width: 100%;
+    }
+
+    .sys_dev_title,
+    .sys_fun_title img {
+        width: 100%;
+    }
+
+    .sys_fun_title label {
+        font-size: 0.17rem;
+    }
+
+    .sys_fun_items {
+        margin-top: 0.3rem;
+    }
+
+    .sys_fun_item {
+        background: url(../imgs/xuanze_bg2.png) no-repeat center center;
+        width: 100%;
+        height: auto;
+        background-size: 122%;
+    }
+
+    .sys_fun_item_desc {
+        width: 44%;
+        margin: 0 0;
+        margin-top: 0.5rem;
+    }
+
+    .sys_fun_item_desc:nth-child(1) {
+        margin-right: 12%;
+        margin-bottom: 0.4rem;
+    }
+
+    .sys_fun_item_desc .label_con {
+        height: auto;
+        padding: 0.4rem 0;
+    }
+
+    .sys_fun_item_desc .label_con span {
+        font-size: 0.3rem;
+        line-height: 0.5rem;
+    }
+
+    .sys_fun_item_desc:nth-child(2) {
+        float: right;
+        margin-bottom: 0.4rem;
+    }
+
+    .sys_fun_item_desc:nth-child(3) {
+        float: initial;
+        margin: 0 auto;
+    }
+
+    .index_team {
+        padding: 0.6rem 0.3rem;
+    }
+
+    .team_items {
+        width: 100%;
+        margin-top: 0;
+        padding: 0 0.8rem
+    }
+
+    .team_list {
+        width: 2.5rem;
+        margin: 0;
+        margin-top: 0.9rem;
+    }
+
+    .team_list:nth-child(2n-1) {
+        float: left;
+    }
+
+    .team_list:nth-child(2n) {
+        float: right;
+    }
+
+    .team_photo {
+        width: 1.9rem;
+        height: 1.9rem;
+        margin: 0 auto;
+        position: relative;
+        top: -0.5rem;
+        z-index: 0;
+    }
+
+    .team_jieshao {
+        margin-top: 0;
+        padding: 0 0.3rem 0.3rem 0.3rem;
+    }
+
+    .team_jieshao .team_photo_title {
+        font-size: 0.28rem;
+    }
+
+    .team_jieshao .team_photo_title font {
+        margin-left: 0.2rem;
+    }
+
+    .team_jieshao label {
+        font-size: 0.24rem
+    }
+
+    .fl_anli {
+        padding: 0.6rem 0.3rem;
+    }
+
+    .fl_items {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .fl_list {
+        width: 31.3%;
+        margin: 0 1.5%;
+        margin-top: 0.3rem;
+    }
+
+    .fl_list:nth-child(1) {
+        margin-left: 0;
+    }
+
+    .fl_list:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .fl_list:nth-child(4) {
+        margin-left: 18%;
+    }
+
+    .anli_jieshao .anli_title {
+        font-size: 0.3rem;
+    }
+
+    .anli_jieshao label {
+        font-size: 0.24rem;
+        line-height: 0.4rem;
+    }
+
+    .icon_shensu1 {
+        top: 1.2rem
+    }
+
+    .icon_shensu1 img {
+        height: 0.6rem;
+    }
+
+    .icon_shensu2 {
+        bottom: 1.2rem
+    }
+
+    .icon_shensu2 img {
+        height: 0.6rem;
+    }
+
+    .index_contact {
+        padding: 0.6rem 0.2rem;
+        width: 100%;
+    }
+
+    .index_contact .sys_fun_title {
+        width: 50%;
+    }
+
+    .contact_items {
+        width: 100%;
+        margin-top: 0.2rem;
+    }
+
+    .contact_left {
+        width: 100%;
+        margin-top: 0.6rem;
+    }
+
+    .contact_input span {
+        padding: 0 0.4rem;
+        font-size: 0.25rem
+    }
+
+    .contact_input input {
+        width: 70%;
+        margin-left: 0.15rem;
+        font-size: 0.25rem
+    }
+
+    .contact_textarea textarea {
+        font-size: 0.25rem
+    }
+
+    .zixun_neirong {
+        width: 4.8rem;
+        height: auto;
+        /* font-size: 0.3rem; */
+        margin: 0.8rem auto 0.4rem auto;
+        text-align: center;
+    }
+
+    .zixun_neirong label {
+        line-height: 0.5rem;
+        font-size: 0.3rem;
+    }
+
+    .zixun_neirong a {
+        border-radius: 0.27rem;
+        padding: 0.08rem;
+        width: 1.6rem;
+        margin-right: 0.044px;
+        float: left;
+    }
+
+    .zixun_neirong a.back1 {
+        margin-right: 0.05rem
+    }
+
+    .zixun_neirong a>div {
+        height: 0.3rem;
+        font-size: 0;
+    }
+
+    .zixun_neirong img {
+        width: 0.3rem;
+        height: 0.3rem;
+        float: left;
+    }
+
+    .zixun_neirong span {
+        font-size: 0.21rem;
+        line-height: 0.3rem;
+        margin-left: 0.05rem
+    }
+
+    .contact_right {
+        width: 100%;
+        font-size: 0.3rem;
+        line-height: 0.6rem;
+        font-weight: 100%;
+    }
+
+    .erweima_list {
+        width: 23%;
+        margin: 0 1%;
+    }
+
+    .erweima_list img {
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .erweima_list label {
+        width: 100%;
+        font-size: 0.2rem;
+    }
+
+    .erweima_label_bg {
+        padding: 0 0;
+    }
+
+    .contact_erweima {
+        margin-top: 0.3rem;
+    }
+
+    .zixun_tel {
+        margin-top: 0.3rem;
+        font-size: 0.3rem;
+    }
+
+    .zixun_tel label {
+        line-height: 0.5rem
+    }
+
+    .zixun_tel label span {
+        font-size: 0.5rem;
+    }
+
+    .footer {
+        padding: 0.4rem 0.2rem 0.4rem
+    }
+
+    .footer_inner {
+        width: 100%;
+    }
+
+    .footer_inner .crumbs {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .footer_inner .credentials {
+        font-size: 0.20rem;
+        text-align: center;
+        padding: 0 0.4rem;
+        float: none;
+    }
+}
